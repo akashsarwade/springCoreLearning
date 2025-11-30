@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!--this is the Bean tag here we are setting the properties and its values 
+- bean class create the oject of this mentioned class Like Student.
+- we have created the Bean id- stdId to get the all this data .
+-->
+<bean class="com.spring.container.core.beans.Student" id="stdId">
+<property name="name" value="Akash"></property>
+<property name="roll" value="197"></property>
+<property name="address" value="Pune Maharashtra IND"></property>
+</bean>
+
+
+
+
+<bean class="com.spring.container.core.beans.Student" id="stdId1">
+<property name="name" value="Shyam"></property>
+<property name="roll" value="17"></property>
+<property name="address" value="Mumbai Maharashtra IND"></property>
+</bean>
+
+<bean class="com.spring.container.core.beans.Student" id="stdId2">
+<property name="name" value="Kumar"></property>
+<property name="roll" value="18"></property>
+<property name="address" value="Pune Maharashtra IND"></property>
+</bean>
+
+<bean class="com.spring.container.core.beans.Student" id="stdId3">
+<property name="name" value="Shivali"></property>
+<property name="roll" value="127"></property>
+<property name="address" value="Nashik Maharashtra IND"></property>
+</bean>
+
+</beans>
