@@ -31,11 +31,19 @@ public class Student {
 		this.address = address;
 	}
 
-	//This method we calling for print data to console
-	public void display() {
-		System.out.println("name-" + name);
-
-		System.out.println("Roll-" + roll);
-		System.out.println("Address-" + address);
+	
+	
+	@Override
+	public String toString() {
+		return "Student [roll=" + roll + ", name=" + name + ", address=" + address + "]";
 	}
+
+	// This method we calling for print data to console
+	public void display() {
+		System.out.println("name- " + name);
+		System.out.println("Roll- " + roll);
+		System.out.println("Address- " + address);
+		System.out.println("---------------------------------------");
+	}
+
 }

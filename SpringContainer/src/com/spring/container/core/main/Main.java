@@ -7,7 +7,7 @@ import com.spring.container.core.beans.Student;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main1(String[] args) {
 
 		//this is the path of Xml File
 		String config_loc = "/com/spring/container/core/resources/applicationContext.xml";
